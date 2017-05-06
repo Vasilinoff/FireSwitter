@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39C2B8424D2D11B66E24D122 /* Pods_FireSwiffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0727FC70B95277015BDE923A /* Pods_FireSwiffer.framework */; };
 		D97E08F21EBDC280009A6571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E08F11EBDC280009A6571 /* AppDelegate.swift */; };
-		D97E08F41EBDC280009A6571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E08F31EBDC280009A6571 /* ViewController.swift */; };
 		D97E08F71EBDC280009A6571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97E08F51EBDC280009A6571 /* Main.storyboard */; };
 		D97E08F91EBDC280009A6571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97E08F81EBDC280009A6571 /* Assets.xcassets */; };
 		D97E08FC1EBDC280009A6571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97E08FA1EBDC280009A6571 /* LaunchScreen.storyboard */; };
+		D97E09041EBDC2E7009A6571 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97E09031EBDC2E7009A6571 /* GoogleService-Info.plist */; };
+		D9EBA06D1EBDCE200034D215 /* SweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA06C1EBDCE200034D215 /* SweetsTableViewController.swift */; };
+		D9EBA06F1EBDCEE40034D215 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA06E1EBDCEE40034D215 /* User.swift */; };
+		D9EBA0711EBDCF9A0034D215 /* Sweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA0701EBDCF9A0034D215 /* Sweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0727FC70B95277015BDE923A /* Pods_FireSwiffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireSwiffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F9B08F9795DC917EEF5FFA /* Pods-FireSwiffer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSwiffer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer.release.xcconfig"; sourceTree = "<group>"; };
+		9F05392C15B5BAC52C55B677 /* Pods-FireSwiffer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSwiffer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer.debug.xcconfig"; sourceTree = "<group>"; };
 		D97E08EE1EBDC280009A6571 /* FireSwiffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireSwiffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97E08F11EBDC280009A6571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D97E08F31EBDC280009A6571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D97E08F61EBDC280009A6571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D97E08F81EBDC280009A6571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97E08FB1EBDC280009A6571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97E08FD1EBDC280009A6571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97E09031EBDC2E7009A6571 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9EBA06C1EBDCE200034D215 /* SweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetsTableViewController.swift; sourceTree = "<group>"; };
+		D9EBA06E1EBDCEE40034D215 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D9EBA0701EBDCF9A0034D215 /* Sweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C2B8424D2D11B66E24D122 /* Pods_FireSwiffer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F93C9C806E1C61B6A198806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0727FC70B95277015BDE923A /* Pods_FireSwiffer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3430F54D5CEFB8DDF0598B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F05392C15B5BAC52C55B677 /* Pods-FireSwiffer.debug.xcconfig */,
+				12F9B08F9795DC917EEF5FFA /* Pods-FireSwiffer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D97E08E51EBDC280009A6571 = {
 			isa = PBXGroup;
 			children = (
 				D97E08F01EBDC280009A6571 /* FireSwiffer */,
 				D97E08EF1EBDC280009A6571 /* Products */,
+				A3430F54D5CEFB8DDF0598B1 /* Pods */,
+				8F93C9C806E1C61B6A198806 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				D97E08F11EBDC280009A6571 /* AppDelegate.swift */,
-				D97E08F31EBDC280009A6571 /* ViewController.swift */,
+				D9EBA06C1EBDCE200034D215 /* SweetsTableViewController.swift */,
 				D97E08F51EBDC280009A6571 /* Main.storyboard */,
+				D9EBA06E1EBDCEE40034D215 /* User.swift */,
+				D9EBA0701EBDCF9A0034D215 /* Sweet.swift */,
 				D97E08F81EBDC280009A6571 /* Assets.xcassets */,
 				D97E08FA1EBDC280009A6571 /* LaunchScreen.storyboard */,
 				D97E08FD1EBDC280009A6571 /* Info.plist */,
+				D97E09031EBDC2E7009A6571 /* GoogleService-Info.plist */,
 			);
 			path = FireSwiffer;
 			sourceTree = "<group>";
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97E09001EBDC280009A6571 /* Build configuration list for PBXNativeTarget "FireSwiffer" */;
 			buildPhases = (
+				EF308B1473804DBD4CB972AF /* [CP] Check Pods Manifest.lock */,
 				D97E08EA1EBDC280009A6571 /* Sources */,
 				D97E08EB1EBDC280009A6571 /* Frameworks */,
 				D97E08EC1EBDC280009A6571 /* Resources */,
+				D8F50F3D4563B68D9E037276 /* [CP] Embed Pods Frameworks */,
+				9EE16A42E71BB3935E8E58A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97E08FC1EBDC280009A6571 /* LaunchScreen.storyboard in Resources */,
+				D97E09041EBDC2E7009A6571 /* GoogleService-Info.plist in Resources */,
 				D97E08F91EBDC280009A6571 /* Assets.xcassets in Resources */,
 				D97E08F71EBDC280009A6571 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +169,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EE16A42E71BB3935E8E58A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F50F3D4563B68D9E037276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSwiffer/Pods-FireSwiffer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF308B1473804DBD4CB972AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D97E08EA1EBDC280009A6571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97E08F41EBDC280009A6571 /* ViewController.swift in Sources */,
+				D9EBA06D1EBDCE200034D215 /* SweetsTableViewController.swift in Sources */,
 				D97E08F21EBDC280009A6571 /* AppDelegate.swift in Sources */,
+				D9EBA0711EBDCF9A0034D215 /* Sweet.swift in Sources */,
+				D9EBA06F1EBDCEE40034D215 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +346,7 @@
 		};
 		D97E09011EBDC280009A6571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F05392C15B5BAC52C55B677 /* Pods-FireSwiffer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 267PJJJ98S;
@@ -272,6 +360,7 @@
 		};
 		D97E09021EBDC280009A6571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F9B08F9795DC917EEF5FFA /* Pods-FireSwiffer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 267PJJJ98S;
@@ -302,6 +391,7 @@
 				D97E09021EBDC280009A6571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
